@@ -1,0 +1,191 @@
+ *{
+    padding: 0;
+    margin: 0;
+ }
+ 
+ body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+   
+ }
+
+
+.request{
+    background-color:  #002992;
+    border-radius: 10px;
+    color: white;
+    /* width: fit-content; */
+    /* height: fit-content; */
+    /* margin: 0 auto; */
+    border: none;
+    padding: .8em 1em;
+    
+}
+li a{
+    color: #002992;
+    font-weight: bold;
+}
+
+.hero{
+    /* background-color: rgb(94, 92, 92); */
+    width: 100%;
+    height: 80vh;
+    /* background-size:cover; */
+    /* background-blend-mode: multiply; */
+    animation: change 20s infinite ease-in-out;
+  
+}
+
+@keyframes change {
+    0%{ background-color: rgb(94, 92, 92);
+        background-image:url(../images/hero.png);
+        /* width: 100%; */
+        /* height: 80vh; */
+        background-size:cover;
+        background-blend-mode: multiply;
+        /* animation: change 2s infinite ease-in-out; */
+     
+    } 
+    25%{
+        background-color: rgb(94, 92, 92);
+        background-image:url(../images/Rectangle\ 4.png);
+        background-size:cover;
+        background-blend-mode: multiply;
+        /* animation: change 2s infinite ease-in-out; */
+ 
+     
+    }
+    50%{ background-color: rgb(94, 92, 92);
+        background-image:url(../images/Rectangle\ 6.png);
+        background-size:cover;
+        background-blend-mode: multiply;
+
+    }
+    100%{
+        background-color: rgb(94, 92, 92);
+
+        background-image:url(../images/Rectangle\ 5.png);
+
+        background-size:cover;
+
+        background-blend-mode: multiply;
+ 
+    }
+ }
+.fa-lightbulb{
+    background-color: rgb(20, 20, 90);
+    border-radius: 20px;
+    /* color: white; */
+    animation: on 3s infinite ease-in-out;
+}
+@keyframes on {
+   0%{
+    color: rgb(70, 69, 69);
+    
+   } 
+   100%{
+    color: gold;
+
+    
+   }
+}
+.safe{
+   text-shadow: 1px 2px 3px #002992;
+   color: rgb(228, 228, 228);
+}
+.text1{
+padding: 10em 0em ;
+margin: 0;
+}
+.contact-btn{
+  background:linear-gradient(to right ,rgb(20, 20, 90), #002992,rgb(20, 20, 90)); 
+  color: white; 
+  font-weight: bold;
+  padding: .6em 1em;
+  border: none;
+  border-radius: 15px;
+  
+}
+.section2{
+/* background-color:; */
+border-bottom: 3px solid #002992;
+border-bottom-right-radius: 50px;
+border-bottom-left-radius: 50px;
+}
+.section2 button{
+    background-color: #002992;
+    color:white;
+    padding: .6em 1em;
+    border: none;
+    border-radius: 5px;
+}
+.text2{
+ 
+  color: #002992;  
+}
+.service{
+    background-color: #F5F5F5; 
+}
+.services ,h4{
+    color: #002992; 
+    /* background-color: #F5F5F5;  */
+}
+
+figcaption{
+    background: rgba(0, 41, 146, 0.8);
+border-radius: 0px 0px 10px 10px;
+    width: 80%;
+    margin:0 auto;
+    font-weight: 600;
+   
+    /* position: absolute; */
+    
+}
+.fa-home{
+    font-size: larger;
+}
+.fa-church{
+    font-size: larger;
+}
+.offer{
+    background-color:  #F5F5F5;
+}
+.offer h3{
+color: #002992;
+font-weight: 600;
+}
+.project-text {
+ color: #002992;
+}
+.testimony{
+    background-color:  #F5F5F5;
+}
+.testimony-text{
+    color:#002992;
+}
+.cont{
+   
+   
+   
+   
+}
+footer{
+    background: #293554;
+}
+.quick-link{
+    list-style: none;
+}
+
+
+/* about-page */
+.aboutt{
+    margin-top: 5em;
+   color:#002992 ;
+}
+.fig{
+    width: fit-content;
+    margin: 0 auto;
+    height: 5vh;
+}
