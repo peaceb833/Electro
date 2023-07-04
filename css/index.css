@@ -1,6 +1,11 @@
- *{
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+
+*{
     padding: 0;
     margin: 0;
+    font-family: 'Inter', sans-serif;;
  }
  
  body{
@@ -31,26 +36,25 @@ li a{
 .hero{
     /* background-color: rgb(94, 92, 92); */
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     /* background-size:cover; */
     /* background-blend-mode: multiply; */
     animation: change 20s infinite ease-in-out;
+    padding: 17em 1em;
   
 }
 
 @keyframes change {
     0%{ background-color: rgb(94, 92, 92);
-        background-image:url(../images/hero.png);
-        /* width: 100%; */
-        /* height: 80vh; */
+        background-image:url(../images/istockphoto-1440285644-170667a.png);
         background-size:cover;
-        background-blend-mode: multiply;
-        /* animation: change 2s infinite ease-in-out; */
+        background-blend-mode: multiply; 
+        /* animation: change 2s infinite ease-in-out; */ 
      
     } 
     25%{
         background-color: rgb(94, 92, 92);
-        background-image:url(../images/Rectangle\ 4.png);
+        background-image:url(../images/photo-1440595228939-3673bdb622b4.jpg);
         background-size:cover;
         background-blend-mode: multiply;
         /* animation: change 2s infinite ease-in-out; */
@@ -58,7 +62,7 @@ li a{
      
     }
     50%{ background-color: rgb(94, 92, 92);
-        background-image:url(../images/Rectangle\ 6.png);
+        background-image:url(../images/photo-1507668077129-56e32842fceb.jpg);
         background-size:cover;
         background-blend-mode: multiply;
 
@@ -66,7 +70,7 @@ li a{
     100%{
         background-color: rgb(94, 92, 92);
 
-        background-image:url(../images/Rectangle\ 5.png);
+        background-image:url(../images/photo-1509390144018-eeaf65052242.jpg);
 
         background-size:cover;
 
@@ -75,35 +79,35 @@ li a{
     }
  }
 .fa-lightbulb{
-    background-color: rgb(20, 20, 90);
+    background-color: rgb(119, 119, 138);
     border-radius: 20px;
-    /* color: white; */
+    color: midnightblue;
     animation: on 3s infinite ease-in-out;
 }
-@keyframes on {
-   0%{
-    color: rgb(70, 69, 69);
-    
-   } 
-   100%{
-    color: gold;
-
-    
-   }
-}
+/* @keyframes on { */
+   /* 0%{ */
+    /* color: rgb(70, 69, 69); */
+/*      */
+   /* }  */
+   /* 100%{ */
+    /* color: gold; */
+/*  */
+/*      */
+   /* } */
+/* } */
 .safe{
    text-shadow: 1px 2px 3px #002992;
    color: rgb(228, 228, 228);
 }
-.text1{
+/* .text1{
 padding: 10em 0em ;
 margin: 0;
-}
+} */
 .contact-btn{
   background:linear-gradient(to right ,rgb(20, 20, 90), #002992,rgb(20, 20, 90)); 
   color: white; 
   font-weight: bold;
-  padding: .6em 1em;
+  padding: .7em 1em;
   border: none;
   border-radius: 15px;
   
@@ -133,7 +137,7 @@ border-bottom-left-radius: 50px;
     /* background-color: #F5F5F5;  */
 }
 
-figcaption{
+.figcaption{
     background: rgba(0, 41, 146, 0.8);
 border-radius: 0px 0px 10px 10px;
     width: 80%;
@@ -181,11 +185,73 @@ footer{
 
 /* about-page */
 .aboutt{
-    margin-top: 5em;
-   color:#002992 ;
+   margin-top: 5em;
+   color:white ;
+   background:url(../images/Hero\ Image\ \(1\).png) ;
+   background-color: rgb(36, 36, 82);
+   background-blend-mode: multiply;
+   height: 40vh;
+   background-size: cover;
 }
+.about-head{
+    color: #ced3df
+}
+
 .fig{
     width: fit-content;
     margin: 0 auto;
     height: 5vh;
+}
+.service{
+    margin-top: 5em;
+    /* color:white ; */
+    background:url(../images/Hero\ Image\ \(1\).png) ;
+    background-color: rgb(36, 36, 82);
+    background-blend-mode: multiply;
+    height: 40vh;
+background-size: cover;}
+    
+
+    .service-head{
+        color: #ced3df   
+    }
+.ourservice{
+    color: #002992;
+}
+.download-bt{
+    background:linear-gradient(to right ,rgb(20, 20, 90), #002992,rgb(20, 20, 90)); 
+    color: white; 
+    font-weight: bold;
+    padding: .7em 1em;
+    border: none;
+    border-radius: 15px;
+}
+.allservice{
+    background: url(../images/hero.png);
+    background-color: #002482;
+  
+    background-blend-mode: multiply;
+
+}
+.contact{
+    background-image: url(/images/Frame\ 1.png);
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    margin: 0 auto;
+}
+input{
+    width: 70%;
+    height: 5vh;
+    margin: 0 auto;
+    
+}
+textarea{
+    width: 70%;
+    height: 10vh;
+    
+}
+.send-bt{
+    background:linear-gradient(to right ,rgb(20, 20, 90), #002992,rgb(20, 20, 90)); 
+color: white;  
 }
